@@ -1,2 +1,2 @@
-# 1 Primeira Aula Javascript
+# 1 - Javascript
 Javascript
