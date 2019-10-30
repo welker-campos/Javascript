@@ -1,0 +1,3 @@
+String — Cadeia de caracteres.
+Number — São os números, (inteiros (int) e não inteiros (float).
+Boolean — (true ou false)
