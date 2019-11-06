@@ -26,3 +26,7 @@ function sw(receive) {
         document.getElementById('lamp').src ='off.jpg'
     }
 }
+
+function quebra(){
+    document.getElementById('lamp').src ='broken.jpg'
+}
