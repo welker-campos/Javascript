@@ -1,23 +1,26 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Calculadora Flex</title>
+    <title>Calculo do IMC</title>
 </head>
 
 <body>
-    <H1>JS - Aula Calculadora Flex</H1>
-    <img src="neutro.png " alt="Calculadora Flex" id="status">
-    <form name="FrmFlex">
-        <input type="text" placeholder="Etanol" size="8" name="txEtanol">
-        <input type="text" placeholder="Gasolina" size="8" name="txtGasolina">
-        <input type="button" value="Vantagem" onclick="calcular()">
-        <input type="reset" value="Limpar" onclick="resetar()">
+    <H1>Cálculo do IMC</H1>
+
+    <form name="frmIMC">
+        <p><input type="text" name="txtPeso" placeholder="Peso"></p>
+        <p><input type="text" name="txtaltura" placeholder="Altura"></p>
+        <input type="button" value="Calcular" onclick="CalcularIMC()">
+        <input type="reset" value="Limpar">
+        <p><input type="text" name="IMC" placeholder="Resultado IMC"></p>
     </form>
-    <script src="calcflex.js"></script>
+    <img src="imc.png" alt="imc" id="status">
+
+    <script src="imc.js"></script>
 </body>
 
 </html>
