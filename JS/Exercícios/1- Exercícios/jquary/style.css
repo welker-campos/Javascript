@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding:0;
+} 
+body{
+    font-family: sans-serif;
+}
+
+.Layout{
+    background-image: url('imagens/background.jpg');
+    height: 320px;
+    background-size: cover;
+    background-position:  center;
+    padding-top:200px;
+    background-attachment: fixed;
+
+} .Layout{
+    text-align: center;
+    color: #fff;
+    font-size: 3em;
+
+}
